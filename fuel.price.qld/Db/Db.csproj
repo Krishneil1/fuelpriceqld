@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="0001.sql" />
+    <None Remove="0002.sql" />
+    <None Remove="0003.sql" />
+    <None Remove="0004.sql" />
+    <None Remove="0005.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="0005.sql" />
+    <EmbeddedResource Include="0004.sql" />
+    <EmbeddedResource Include="0003.sql" />
+    <EmbeddedResource Include="0002.sql" />
+    <EmbeddedResource Include="0001.sql" />
+  </ItemGroup>
+    <ItemGroup>
+	    <PackageReference Include="dbup-sqlserver" Version="4.6.0" />
+    </ItemGroup>
+
+</Project>

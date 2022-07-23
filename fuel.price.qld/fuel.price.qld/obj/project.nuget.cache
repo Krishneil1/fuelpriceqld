@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "kH36sanBjKRvf7bBwqaFtZvyH57XvNvsJT1cr39+qGBsTGvGfJ405gEqqUxZ0t/RxcDm7qW7VVj+/gPaudwpLA==",
+  "success": true,
+  "projectFilePath": "C:\\learn\\fuelpriceqld\\fuel.price.qld\\fuel.price.qld\\fuel.price.qld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Krishneel.Kumar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Krishneel.Kumar\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Krishneel.Kumar\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Krishneel.Kumar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Krishneel.Kumar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Krishneel.Kumar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

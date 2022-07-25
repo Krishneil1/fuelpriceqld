@@ -1,18 +1,27 @@
-﻿/****** Object:  Table [dbo].[FuelTypes]    Script Date: 24/07/2022 9:29:38 AM ******/
-SET ANSI_NULLS ON
+﻿SET ANSI_NULLS ON
 GO
 
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE TABLE [dbo].[FuelTypes](
-	[FuelId] [int] NOT NULL,
+CREATE TABLE [fpq].[FullSiteDetails](
+	[SiteId] [int] NOT NULL,
+	[Address] [nvarchar](max) NULL,
 	[Name] [nvarchar](max) NULL,
- CONSTRAINT [PK_FuelTypes] PRIMARY KEY CLUSTERED 
+	[BrandId] [int] NOT NULL,
+	[PostCode] [int] NOT NULL,
+	[GeoRegionId] [int] NOT NULL,
+	[GeoRegionParentId] [int] NOT NULL,
+	[GeoRegionParentId3] [int] NOT NULL,
+	[GeoRegionParentId4] [int] NOT NULL,
+	[GeoRegionParentId5] [int] NOT NULL,
+	[Latitude] [float] NOT NULL,
+	[Longitude] [float] NOT NULL,
+	[Modified] [datetime2](7) NOT NULL,
+	[Hash] [nvarchar](max) NULL,
+ CONSTRAINT [PK_FullSiteDetails] PRIMARY KEY CLUSTERED 
 (
-	[FuelId] ASC
+	[SiteId] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-
-

@@ -6,7 +6,7 @@ int result;
 
 string connectionString =
     args.FirstOrDefault()
-    ?? "Server=LOCALHOST;Database=qld_fuel_price_v1;User ID=*****;Password=*****";
+    ?? "Server=APSTTWX180\\LOCALHOST;Database=qld_fuel_price_v1;User ID=dbup;Password=dbup";
 
 UpgradeEngine upgrader = DeployChanges.To
     .SqlDatabase(connectionString)

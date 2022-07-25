@@ -5,9 +5,10 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE TABLE [dbo].[Brands](
+CREATE TABLE [fpq].[Brands](
 	[Name] [nvarchar](max) NULL,
 	[BrandId] [int] NOT NULL,
+	[Hash] [nvarchar](max) NULL,
  CONSTRAINT [PK_Brands] PRIMARY KEY CLUSTERED 
 (
 	[BrandId] ASC
@@ -15,7 +16,7 @@ CREATE TABLE [dbo].[Brands](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
 
-ALTER TABLE [dbo].[Brands] ADD  DEFAULT ((0)) FOR [BrandId]
+ALTER TABLE [fpq].[Brands] ADD  DEFAULT ((0)) FOR [BrandId]
 GO
 
 

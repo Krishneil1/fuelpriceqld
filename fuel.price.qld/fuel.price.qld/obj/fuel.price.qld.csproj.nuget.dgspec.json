@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\learn\\fuelpriceqld\\fuel.price.qld\\fuel.price.qld\\fuel.price.qld.csproj": {}
+    "C:\\learn\\fuelpriceqld\\fuel.price.qld\\fuel.price.qld\\Fuel.Price.Qld.csproj": {}
   },
   "projects": {
-    "C:\\learn\\fuelpriceqld\\fuel.price.qld\\fuel.price.qld\\fuel.price.qld.csproj": {
+    "C:\\learn\\fuelpriceqld\\fuel.price.qld\\fuel.price.qld\\Fuel.Price.Qld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\learn\\fuelpriceqld\\fuel.price.qld\\fuel.price.qld\\fuel.price.qld.csproj",
-        "projectName": "fuel.price.qld",
-        "projectPath": "C:\\learn\\fuelpriceqld\\fuel.price.qld\\fuel.price.qld\\fuel.price.qld.csproj",
+        "projectUniqueName": "C:\\learn\\fuelpriceqld\\fuel.price.qld\\fuel.price.qld\\Fuel.Price.Qld.csproj",
+        "projectName": "Fuel.Price.Qld",
+        "projectPath": "C:\\learn\\fuelpriceqld\\fuel.price.qld\\fuel.price.qld\\Fuel.Price.Qld.csproj",
         "packagesPath": "C:\\Users\\Krishneel.Kumar\\.nuget\\packages\\",
         "outputPath": "C:\\learn\\fuelpriceqld\\fuel.price.qld\\fuel.price.qld\\obj\\",
         "projectStyle": "PackageReference",
@@ -44,9 +44,69 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.8.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "HangFire.Core": {
+              "target": "Package",
+              "version": "[1.7.29, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.29, )"
+            },
+            "Hangfire.Dashboard.BasicAuthorization": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.29, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -67,7 +127,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

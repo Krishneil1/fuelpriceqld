@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fuel.price.qld", "fuel.price.qld\fuel.price.qld.csproj", "{3DC31C51-311F-48A7-99C2-3FC09911F1F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fuel.Price.Qld", "fuel.price.qld\Fuel.Price.Qld.csproj", "{3DC31C51-311F-48A7-99C2-3FC09911F1F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Db", "Db\Db.csproj", "{47D8D796-A986-4C51-ADCD-6317B9B4BB28}"
 EndProject
